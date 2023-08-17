@@ -9,8 +9,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 
 </head>
-<body>
+<body class="home-page">
 <div class="container">
+    <!-- Nav bar -->
+    <header class="site-header">
+        <nav id="navbar" class="site-navigation">
+            <ul class="menu">
+                <li class="menu-item">
+                    <a class="menu-text" href="https://pheonixmetal.github.io/">Home</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-text">Gallery</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-text">About</a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-text">Projects</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     <!-- Slider main container -->
     <div class="swiper">
         <!-- Additional required wrapper -->
@@ -27,32 +47,20 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
     </div>
+
+    <!-- Call to Actions -->
+    <div class="cta">
+        <div class="cta-icon"><img src="assets/Miracle.jpg"></div>
+        <div class="cta-icon"><img src="assets/Drake.jpg"></div>
+        <div class="cta-icon"><img src="assets/patreon.png"></div>
+        <div class="cta-icon"><img src="assets/Discord.png"></div>
+    </div>
 </div>
 
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="app.js"></script>
 
-<script>
-    const swiper = new Swiper('.swiper', {
-    autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-    },
-    loop: true,
-
-    // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
-
-    // Navigation arrows
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-    });
-</script>
 </body>
 </html>
