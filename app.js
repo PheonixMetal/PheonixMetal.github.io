@@ -18,7 +18,7 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
     },
     });
-/*
+
 // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
@@ -36,4 +36,3 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
-*/
