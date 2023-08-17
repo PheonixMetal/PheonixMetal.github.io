@@ -15,24 +15,15 @@
     text-align: center;
 }
 
-#navbar{
-    z-index: 2;
-}
-
-.content {
-    padding: 8px;
-}
-
-.sticky {
-    position: fixed;
+.nav{
+    background-color: #e71313;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
     top: 0;
-    width: 100%;
+    position: sticky;
 }
 
-.sticky + .content {
-    padding-top: 60px;
-}
-  
 .menu {
     list-style-type: none;
     margin: 0;
