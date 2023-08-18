@@ -24,7 +24,6 @@
 .menu {
     list-style-type: none;
     margin: 0;
-    padding: 2px;
     background-color: #e71313;
 }
 
@@ -35,7 +34,16 @@
 .menu-text{
     display: block;
     padding: 8px;
+    color: #fff;
 }
+
+.menu-text:hover{
+    background-color: #740808;
+}
+
+.menu-item .active {
+    background-color: #ff7272;
+  }
 
 .home-page{
     background: #222;
@@ -46,10 +54,6 @@
     width: 100%;
     height: 100vh;
     background: #222;
-}
-
-.site-navigation{
-    color: #fff;
 }
 
 .swiper{
