@@ -13,31 +13,18 @@
     font-size: 26px;
     width: 100%;
     text-align: center;
-}
-
-#navbar{
+    background-color: #e71313;
+    box-sizing: border-box;
+    justify-content: space-evenly;
     z-index: 2;
-}
-
-.content {
-    padding: 8px;
-}
-
-.sticky {
-    position: fixed;
+    position: sticky;
     top: 0;
-    width: 100%;
 }
 
-.sticky + .content {
-    padding-top: 60px;
-}
-  
 .menu {
     list-style-type: none;
     margin: 0;
     padding: 2px;
-    overflow: hidden;
     background-color: #e71313;
 }
 
@@ -68,7 +55,6 @@
 .swiper{
     width: 80%;
     height: fit-content;
-    top: 45px;
 }
 
 .swiper-slide img{
