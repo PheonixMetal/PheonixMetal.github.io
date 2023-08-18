@@ -125,3 +125,18 @@
     z-index: 2;
     border: 8px solid #740808;
 }
+
+.cta-text {
+    font-size: 30px;
+    display: block;
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    
+    text-align: center;
+}
+
+.cta-desc{
+    display:inline-block;
+}
