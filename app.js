@@ -18,3 +18,11 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
     },
     });
+
+    $(window).scroll(function() {
+      if ($(window).scrollTop() >= 50) {
+        $('.site-navigation').css('background', '#e71313');
+      } else {
+        $('.site-navigation').css('background', 'transparent');
+      }
+    });
