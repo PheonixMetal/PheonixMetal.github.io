@@ -19,13 +19,15 @@
     top: 0;
 }
 
-.social-link-icons{
-    display:flex;
-    justify-content:right;
+.social-icon img{
+    padding: 5px;
+    width: 5%;
+    position: relative;
+    top: 5px;
 }
 
-.social-icon{
-    padding: 8px;
+.logo-img img{
+    width:25%;
 }
 
 .menu {
@@ -65,7 +67,7 @@
 }
 
 .swiper{
-    width: 80%;
+    width: 75%;
     height: fit-content;
 }
 
