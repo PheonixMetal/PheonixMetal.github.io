@@ -11,17 +11,16 @@
 
 .site-header{
     font-size: 26px;
+    font-family: myFont;
     background-color: #e71313;
     box-sizing: border-box;
-    justify-content: space-evenly;
     z-index: 3;
     position: sticky;
     top: 0;
 }
 
 .site-navigation{
-    position:relative;
-    left: 120px;
+    text-align: center;
 }
 
 .social-icon img{
@@ -33,20 +32,18 @@
 
 .logo-img img{
     width:10%;
-    position: relative;
-    right: 300px;
+    margin-right: 200px;
 }
 
 .menu {
-    text-align:right;
     list-style-type: none;
     margin: 0;
     background-color: #e71313;
+    display:inline-block;
 }
 
 .menu-item{
     display: inline-block;
-    text-align: center;
 }
 
 .menu-text{
